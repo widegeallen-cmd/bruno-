@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin
+@CrossOrigin(origins="*")
 public class UserController { 
 
     private final UserRepository userRepository; 
